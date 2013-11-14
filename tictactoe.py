@@ -1,4 +1,3 @@
-
 lt = " "
 t  = " "
 rt = " "
@@ -59,10 +58,19 @@ while not someonewon:
 		current = "O"
 	else: 
 		current = "X"
+		#check if someone has one the game
+	if lt == t == rt and lt != " ":
+		someonewon = True
+    if lt == c == rb and lt != " ":
+    	someonewon = True
+    if lt == c == rb
+    	someonewon = True
+
+
 
 
    
-print "Someone Won!"
+print "Someone Won!" 
 
 
 
@@ -70,6 +78,5 @@ print "Someone Won!"
 
 
 g
-
 
 
